@@ -150,3 +150,31 @@ letter-spacing: 0.1em;
     color: 
     #D23166;
 }
+.delivery {
+    padding: 100px 0px 100px;
+    justify-content: space-between;
+}
+.deliv {
+    background: #FFFFFF;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+}
+.delivery__nav {
+}
+.delivery__list {
+    display: flex;
+}
+.delivery__item {
+    height: 200px;
+    width: 250px;
+}
+.delivery__img-wrap {
+}
+.delivery__img {
+}
+.delivery__desc {
+}
+.delivery__title {
+}
+.delivery__text {
+}
