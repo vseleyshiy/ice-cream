@@ -171,6 +171,8 @@ letter-spacing: 0.1em;
 .delivery__img-wrap {
 }
 .delivery__img {
+    height: 43px;
+    width: 51px;
 }
 .delivery__desc {
 }
