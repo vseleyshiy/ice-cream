@@ -23,6 +23,7 @@ ul {
 
 ul>li {
     list-style: none;
+    text-align: center;
 }
 
 a {
@@ -61,8 +62,6 @@ img {
     width: 79px;
     display: block;
     margin-right: 270px;
-}
-.nav {
 }
 .nav__list {
     display: flex;
@@ -159,24 +158,137 @@ letter-spacing: 0.1em;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
     border-radius: 7px;
 }
-.delivery__nav {
-}
 .delivery__list {
     display: flex;
+    justify-content: space-between;
 }
 .delivery__item {
     height: 200px;
     width: 250px;
 }
 .delivery__img-wrap {
+    padding-bottom: 30px;
+    padding-top: 33px;
 }
 .delivery__img {
-    height: 43px;
-    width: 51px;
+    object-fit: contain;
 }
 .delivery__desc {
 }
 .delivery__title {
+    padding-bottom: 17px;
 }
 .delivery__text {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center; 
+    color: rgba(0, 0, 0, 0.6);
+}
+.details {
+    background: #F8EDF0;
+}
+.details__content {
+    display: flex;
+}
+.details__info {
+    padding-top: 148px;
+    padding-bottom: 146px;
+    max-width: 442px;
+    margin-right: 201px;
+}
+.details__title {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+    margin-bottom: 33px;
+}
+.details__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(21, 1, 1, 0.6);
+    margin-bottom: 24px;
+}
+.details__img {
+    padding-top: 68px;
+}
+
+.product {
+}
+.product__content {
+}
+.second__title {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+    text-align: center;
+}
+.header {
+}
+.product__list {
+    display: flex;
+    padding-left: 125px;
+}
+.product__item {
+    margin-right: 41px;
+}
+.product__item:last-child {
+    margin-right: 0;
+}
+.product__link {
+}
+.product__info {
+}
+.product__list-food {
+}
+.product__item-food {
+}
+.product__img-wrap {
+}
+.product__img {
+}
+.product__desc {
+}
+.product__title {
+}
+.product__text {
+}
+.price {
+}
+.price__new {
+}
+.price__old {
+}
+.btn {
+}
+.thanks {
+}
+.thanks__content {
+}
+.thanks__info {
+}
+.thanks__img-wrap {
+}
+.thanks__img {
+}
+.thanks__title {
+}
+.thanks__subtitle {
+}
+.thanks__text {
+}
+.thanks__left-arrow {
+}
+.thanks__right-arrow {
 }
