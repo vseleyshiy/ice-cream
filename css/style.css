@@ -2,14 +2,15 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
 body {
     font-family: 'Fredoka One', cursive;
-font-family: 'Hind Madurai', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .wrapper {
@@ -53,22 +54,27 @@ img {
     display: flex;
     height: 100vh;
 }
+
 .header {
     display: flex;
     align-items: center;
 }
+
 .logo {
     height: 79px;
     width: 79px;
     display: block;
     margin-right: 270px;
 }
+
 .nav__list {
     display: flex;
 }
+
 .nav__item {
     margin-right: 40px;
 }
+
 .nav__item:last-child {
     margin-right: 170px;
 }
@@ -76,6 +82,7 @@ img {
 .nav__link {
     color: rgba(21, 1, 1, 0.6);
 }
+
 .btn {
     background-color: #D23166;
     color: white;
@@ -84,29 +91,34 @@ img {
     height: 49px;
     border: none;
 }
+
 .hero__content {
     align-items: center;
     display: flex;
 }
+
 .hero__info {
     padding-top: 205px;
 }
+
 .hero__headline {
     font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.1em;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
 }
+
 .title {
     font-family: 'Fredoka One';
     font-style: normal;
     font-weight: 400;
     font-size: 57.33px;
-    line-height: 120.5%;    
+    line-height: 120.5%;
     color: #0F0101;
     opacity: 0.9;
     margin-bottom: 40px;
 }
+
 .hero__desc {
     font-weight: 400;
     font-size: 18px;
@@ -115,10 +127,12 @@ letter-spacing: 0.1em;
     opacity: 0.6;
     margin-bottom: 30px;
 }
+
 .decor__content {
     width: 100%;
     position: relative;
 }
+
 .decor__content::after {
     content: "";
     width: 365px;
@@ -146,59 +160,71 @@ letter-spacing: 0.1em;
 }
 
 .tolik {
-    color: 
-    #D23166;
+    color:
+        #D23166;
 }
+
 .delivery {
     padding: 100px 0px 100px;
     justify-content: space-between;
 }
+
 .deliv {
     background: #FFFFFF;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
     border-radius: 7px;
 }
+
 .delivery__list {
     display: flex;
     justify-content: space-between;
 }
+
 .delivery__item {
     height: 200px;
     width: 250px;
 }
+
 .delivery__img-wrap {
     padding-bottom: 30px;
     padding-top: 33px;
 }
+
 .delivery__img {
     object-fit: contain;
 }
-.delivery__desc {
-}
+
+.delivery__desc {}
+
 .delivery__title {
     padding-bottom: 17px;
 }
+
 .delivery__text {
     font-family: 'Hind Madurai';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    text-align: center; 
+    text-align: center;
     color: rgba(0, 0, 0, 0.6);
 }
+
 .details {
     background: #F8EDF0;
 }
+
 .details__content {
     display: flex;
 }
+
 .details__info {
     padding-top: 148px;
     padding-bottom: 146px;
     max-width: 442px;
     margin-right: 201px;
 }
+
 .details__title {
     font-family: 'Hind Madurai';
     font-style: normal;
@@ -208,6 +234,7 @@ letter-spacing: 0.1em;
     color: #150101;
     margin-bottom: 33px;
 }
+
 .details__text {
     font-family: 'Roboto';
     font-style: normal;
@@ -217,14 +244,15 @@ letter-spacing: 0.1em;
     color: rgba(21, 1, 1, 0.6);
     margin-bottom: 24px;
 }
+
 .details__img {
     padding-top: 68px;
 }
 
-.product {
-}
-.product__content {
-}
+.product {}
+
+.product__content {}
+
 .second__title {
     font-family: 'Hind Madurai';
     font-style: normal;
@@ -233,62 +261,127 @@ letter-spacing: 0.1em;
     line-height: 61px;
     color: #150101;
     text-align: center;
+    margin-top: 133px;
+    margin-bottom: 80px;
 }
-.header {
+
+.header-product {
+    justify-content: center;
+    align-items: center;
 }
+
 .product__list {
     display: flex;
-    padding-left: 125px;
+
 }
+
 .product__item {
     margin-right: 41px;
 }
+
+.product__item:first-child {
+    margin-left: 125px;
+}
+
 .product__item:last-child {
     margin-right: 0;
 }
-.product__link {
-}
-.product__info {
-}
-.product__list-food {
-}
+
+.product__link {}
+
+.product__info {}
+
+.product__list-food {}
+
 .product__item-food {
+    display: flex;
 }
-.product__img-wrap {
+
+.product__img-wrap {}
+
+.product__img {}
+
+.product__desc {}
+
+.product__title {}
+
+.product__text {}
+
+.price {}
+
+.price__new {}
+
+.price__old {}
+
+.btn {}
+
+
+.feedback {}
+
+.feedback__container {}
+
+.feedback__content {}
+
+.review {}
+
+.review__head {
+    display: flex;
+    align-items: center;
 }
-.product__img {
+
+.avatar {}
+
+.avatar__img {}
+
+.reviwe__user {}
+
+.review__user-name {}
+
+.review__user-nationality {}
+
+.review__text {
+    max-width: 345px;
+    padding-left: 23px;
+    position: relative;
 }
-.product__desc {
+
+.review__text::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-image: url(../img/items/second-cav.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    transform: scale(-1, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-.product__title {
+
+.review__text::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-image: url(../img/items/second-cav.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: sub;
 }
-.product__text {
-}
-.price {
-}
-.price__new {
-}
-.price__old {
-}
-.btn {
-}
-.thanks {
-}
-.thanks__content {
-}
-.thanks__info {
-}
-.thanks__img-wrap {
-}
-.thanks__img {
-}
-.thanks__title {
-}
-.thanks__subtitle {
-}
-.thanks__text {
-}
-.thanks__left-arrow {
-}
-.thanks__right-arrow {
-}
+
+.feedback__slider {}
+
+.avatars__slider {}
+
+.avatars-slider__ctrls {}
+
+.avatars-slider__ctrl {}
+
+.avatars-slider__ctrl_direction_prev {}
+
+.avatars-slider__item {}
+
+.avatars-slider__ctrl_direction_next {}
