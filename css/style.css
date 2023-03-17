@@ -24,7 +24,6 @@ ul {
 
 ul>li {
     list-style: none;
-    text-align: center;
 }
 
 a {
@@ -183,6 +182,7 @@ img {
 .delivery__item {
     height: 200px;
     width: 250px;
+    text-align: center;
 }
 
 .delivery__img-wrap {
@@ -268,6 +268,7 @@ img {
 .header-product {
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .product__list {
@@ -287,7 +288,14 @@ img {
     margin-right: 0;
 }
 
-.product__link {}
+.product__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.6);
+}
 
 .product__info {}
 
@@ -295,23 +303,58 @@ img {
 
 .product__item-food {
     display: flex;
+    padding-bottom: 120px;
+}
+.product__item-food:nth-child(even) {
+    flex-direction: row-reverse;
 }
 
 .product__img-wrap {}
 
 .product__img {}
 
-.product__desc {}
+.product__desc {
+    max-width: 454px;
+}
 
-.product__title {}
+.product__title {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
 
-.product__text {}
+.product__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
 
 .price {}
 
-.price__new {}
+.price__new {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
 
-.price__old {}
+.price__old {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: rgba(0, 0, 0, 0.7);
+}
 
 .btn {}
 
@@ -322,22 +365,42 @@ img {
 
 .feedback__content {}
 
-.review {}
+.review {
+    margin-bottom: 39px;
+}
 
 .review__head {
     display: flex;
     align-items: center;
+    margin-bottom: 46px;
 }
 
 .avatar {}
 
 .avatar__img {}
 
-.reviwe__user {}
+.reviwe__user {
+    margin-left: 11px;
+}
 
-.review__user-name {}
+.review__user-name {
+    margin-bottom: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
 
-.review__user-nationality {}
+.review__user-nationality {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.7);  
+}
 
 .review__text {
     max-width: 345px;
@@ -372,16 +435,46 @@ img {
     vertical-align: sub;
 }
 
-.feedback__slider {}
+.feedback__slider {
+    max-width: 256px;
+}
 
-.avatars__slider {}
+.avatars__slider {
+    position: relative;
+    display: flex;
+    padding: 0px 38px;
+}
 
-.avatars-slider__ctrls {}
+.avatars-slider__ctrls {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    transform: translate(0px, -50%);
+}
 
-.avatars-slider__ctrl {}
+.avatars-slider__ctrl {
+}
 
-.avatars-slider__ctrl_direction_prev {}
+.avatars-slider__ctrl_direction_prev {
+    transform: scale(-1, 1);
+}
 
 .avatars-slider__item {}
 
 .avatars-slider__ctrl_direction_next {}
+
+.avatars-slider__list {
+    display: flex;
+}
+.avatars-slider__item {
+}
+.avatar {
+}
+.avatar__img {
+}
+.active {
+    border: 1px solid #D64374;
+}
